@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="310.0" prefWidth="704.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apotek.controller.WizardFinishController">
+    <stylesheets>
+        <URL value="@/apotek/css/wizard.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="54.0" fitWidth="60.0" layoutX="325.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/checked_checkbox_60px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="259.0" layoutY="115.0" text="Pengaturan Aplikasi Apotek Selesai" textFill="#919191" />
+      <Label layoutX="272.0" layoutY="142.0" text="Klik Selesai untuk melanjutkan" textFill="#919191" />
+      <ImageView fx:id="pill1" fitHeight="60.0" fitWidth="73.0" layoutX="60.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" rotate="128.7">
+         <image>
+            <Image url="@../img/pill_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pill11" fitHeight="60.0" fitWidth="73.0" layoutX="30.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true" rotate="-116.6">
+         <image>
+            <Image url="@../img/pill_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pill111" fitHeight="60.0" fitWidth="73.0" layoutX="614.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" rotate="-29.1">
+         <image>
+            <Image url="@../img/pill_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pill11111" fitHeight="60.0" fitWidth="73.0" layoutX="469.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true" rotate="-65.4">
+         <image>
+            <Image url="@../img/pill_48px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

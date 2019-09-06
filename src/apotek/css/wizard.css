@@ -1,0 +1,111 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.show-text{    
+    -fx-border-radius: 20px;
+    -fx-border-style: solid;          
+    -fx-border-color: #919191;    
+    -fx-background-color:transparent;    
+}
+.show-text:focused{
+    -fx-border-color: #568cc7;
+}
+.radio-button{
+    -jfx-unselected-color:#919191;
+}
+.radio-button:selected{
+    -jfx-selected-color:#568cc7;
+}
+.radio-button:focused{
+    -jfx-selected-color:#568cc7;
+}
+.date-picker{
+    -fx-background-color: transparent;
+    -fx-border-style:solid;
+    -fx-border-color:#919191;
+    -fx-border-radius: 20px;            
+}
+.date-picker-popup > * > .spinner > .button:hover{
+    -fx-background-color:#568cc7;
+    -fx-color:white;
+}
+
+.date-picker-popup > * > .day-cell:hover,
+.date-picker-popup > * > .day-cell:focused{
+    -fx-background-color:#568cc7;    
+    -fx-text-fill:white;
+}
+
+
+
+.date-picker-popup > * > .spinner > .button:focused{
+    -fx-border-color:#568cc7;
+}
+
+.date-picker > .text-field{
+    -fx-border-style:none;    
+    -fx-background-radius:20px;  
+    -fx-background-color:transparent;       
+}
+.date-picker:focused{
+    -fx-border-color:#568cc7;
+}
+.date-picker > .arrow-button > .arrow{
+    -fx-background-color:white;    
+}
+.date-picker > .arrow-button{
+    -fx-background-color:#568cc7;
+    -fx-background-radius:3px;
+    -fx-translate-x:30;
+}
+.date-picker-popup{
+    -fx-background-color:white;
+}
+
+.date-picker-popup > .month-year-pane{
+    -fx-background-color:white;
+}
+
+.date-picker-popup > * > .spinner{
+    -fx-background-color:white;
+    
+} 
+
+.show-text-area{
+    -fx-background-color:transparent;
+    -fx-border-radius:20px;
+    -fx-border-style: solid;
+    -fx-border-color:#919191;
+    -fx-background-radius:20px;    
+    -fx-background-size:20px;   
+    -fx-shape:null;    
+    -fx-wrap-text:false;    
+    -fx-padding: 5px;
+}
+.show-text-area .content{    
+    -fx-background-color:white;          
+}
+.show-text-area:focused .content{            
+/*    -fx-background-color:white;
+    -fx-border-color:#568cc7;    
+    -fx-background-color:white;    
+    -fx-focus-traversable:false;    */
+}
+.show-text-area:focused{
+    -fx-border-color:#568cc7;
+}
+
+.upload-pane{
+    -fx-backround-radius: 20px;
+    -fx-background-color: transparent;
+    -fx-border-style: dashed;
+    -fx-border-color: #919191;
+    -fx-border-radius: 20px;    
+}
+.logo{
+    -fx-background-radius:20px;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="623.0" prefWidth="1106.0" style="-fx-background-color: #f2f2f2;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apotek.controller.HomeController">
+    <stylesheets>
+        <URL value="@/apotek/css/main.css" />
+    </stylesheets>
+   <children>
+      <ScrollPane layoutX="200.0" layoutY="128.0" prefHeight="495.0" prefWidth="925.0" styleClass="scrollpane" stylesheets="@../css/main.css">
+         <content>
+            <AnchorPane prefHeight="531.0" prefWidth="910.0" style="-fx-background-color: #f2f2f2;">
+               <effect>
+                  <DropShadow color="#0000003a" />
+               </effect>
+               <children>
+                  <AnchorPane layoutX="40.0" layoutY="40.0" prefHeight="469.0" prefWidth="790.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="60.0">
+                     <effect>
+                        <DropShadow color="#00000034" />
+                     </effect>
+                  </AnchorPane>
+               </children></AnchorPane>
+         </content>
+      </ScrollPane>
+      <AnchorPane layoutX="197.0" layoutY="60.0" prefHeight="69.0" prefWidth="927.0" style="-fx-background-color: white;">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#00000038" />
+         </effect></AnchorPane>
+      <AnchorPane layoutY="-1.0" prefHeight="61.0" prefWidth="200.0" style="-fx-background-color: #46739f;">
+         <children>
+            <Label layoutX="14.0" layoutY="16.0" text="Label" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="200.0" prefHeight="60.0" prefWidth="925.0" style="-fx-background-color: #568cc7;">
+         <children>
+            <JFXButton layoutX="899.0" layoutY="3.0" text="X" textFill="WHITE" />
+            <JFXButton layoutX="867.0" layoutY="-5.0" text="-" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="60.0" prefHeight="563.0" prefWidth="200.0" style="-fx-background-color: white;">
+         <effect>
+            <DropShadow color="#00000033" height="26.19" radius="12.780000000000001" width="26.93" />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>
